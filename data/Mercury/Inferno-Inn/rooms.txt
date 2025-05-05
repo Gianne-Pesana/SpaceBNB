@@ -1,0 +1,12 @@
+991,luxury,5182.57,true,in-room-spa,true
+830,standard,2753.59,true,Twin,true
+494,luxury,7950.55,true,private-pool,true
+203,luxury,7607.62,true,jacuzzi,false
+888,standard,2206.29,true,Queen,true
+391,economy,802.49,true,Single bed,Small
+481,luxury,4298.2,true,jacuzzi,true
+472,standard,3177.89,true,Twin,false
+702,luxury,7087.26,true,private-pool,false
+288,standard,2044.88,true,Queen,true
+921,luxury,8954.4,true,private-pool,true
+609,standard,1797.1,true,King,true

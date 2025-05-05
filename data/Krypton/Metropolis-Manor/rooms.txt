@@ -1,0 +1,13 @@
+446,economy,1839.3,true,Bunk bed,Large
+658,economy,1076.83,true,Bunk bed,Large
+914,economy,891.26,true,Bunk bed,Large
+269,economy,1908.6,true,Single bed,Small
+396,economy,1673.01,true,Single bed,Large
+781,standard,3788.11,true,Twin,true
+451,economy,1449.15,true,Single bed,Large
+724,standard,1907.06,true,King,false
+485,standard,2438.17,true,Queen,true
+973,luxury,9385.51,true,private-pool,true
+149,standard,2432.78,true,Queen,false
+748,economy,1269.81,true,Single bed,Small
+613,standard,1647.08,true,Twin,false

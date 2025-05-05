@@ -1,0 +1,11 @@
+887,standard,2561.62,true,King,false
+516,economy,1575.26,true,Single bed,Medium
+608,economy,974.47,true,Bunk bed,Medium
+186,standard,2827.57,true,King,false
+127,standard,1849.01,true,Twin,true
+103,standard,2168.55,true,Twin,true
+121,standard,2616.34,true,King,true
+479,standard,2354.85,true,Queen,false
+201,standard,3379.24,true,Twin,false
+441,standard,2970.59,true,Twin,false
+982,standard,2870.54,true,Queen,true

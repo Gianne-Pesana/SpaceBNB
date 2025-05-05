@@ -1,0 +1,11 @@
+611,standard,2447.68,true,Queen,false
+634,economy,1701.83,true,Single bed,Large
+708,standard,1580.41,true,King,false
+772,luxury,8029.15,true,none,false
+526,luxury,9684.81,true,none,false
+180,standard,2036.56,true,Twin,true
+644,economy,1181.29,true,Single bed,Large
+911,standard,1596.82,true,Twin,false
+737,standard,3396.99,true,King,true
+360,luxury,6404.3,true,none,false
+970,economy,856.42,true,Single bed,Large

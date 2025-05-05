@@ -1,0 +1,10 @@
+353,standard,3302.88,true,King,true
+357,luxury,4513.87,true,in-room-spa,true
+880,standard,3036.78,true,Queen,true
+981,standard,3606.1,true,Twin,false
+308,luxury,3213.27,true,jacuzzi,false
+481,economy,1777.66,true,Single bed,Large
+559,luxury,8001.89,true,jacuzzi,false
+611,luxury,4315.54,true,jacuzzi,true
+442,economy,1328.95,true,Bunk bed,Large
+626,economy,870.47,true,Single bed,Large

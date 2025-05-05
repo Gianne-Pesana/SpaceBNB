@@ -1,0 +1,10 @@
+Mercury|Extremely hot and cold|57.9 million km
+Venus|Hot and toxic|41.4 million km
+Mars|Cold and dusty|54.6 million km
+Jupiter|Gas giant with storms|588 million km
+Saturn|Gas giant with rings|1200 million km
+Uranus|Icy and tilted|2570 million km
+Neptune|Cold and windy|4350 million km
+Krypton|Crystalline and rarefied atmosphere|Long gone, scattered across the cosmos
+Gallifrey|Temporal storms and biodiverse regions|Shifting within the fourth dimension
+Vulcan|Arid deserts and volcanic highlands|16 light-years (in the Beta Quadrant)

@@ -1,0 +1,13 @@
+803,economy,1202.48,true,Bunk bed,Large
+719,luxury,6857.12,true,none,false
+195,luxury,4089.39,true,in-room-spa,true
+229,luxury,7267.95,true,jacuzzi,false
+939,luxury,4506.45,true,none,true
+412,economy,1074.38,true,Single bed,Small
+466,luxury,4830.09,true,private-pool,false
+163,luxury,7419.0,true,in-room-spa,false
+527,economy,1471.13,true,Bunk bed,Small
+511,standard,3115.54,true,King,false
+736,standard,2323.23,true,King,true
+386,standard,1653.91,true,Queen,true
+410,luxury,9376.49,true,jacuzzi,false

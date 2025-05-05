@@ -1,0 +1,5 @@
+Cinder Rest,1
+Quicksilver Retreat,1
+The Sunspot Lodge,3
+Dawnbreak Hotel,5
+Inferno Inn,3

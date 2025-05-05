@@ -1,0 +1,6 @@
+Ariel Abode,3
+Titania Towers,5
+Sideways Suites,1
+Ice Giant Inn,2
+Oberon Overlook,1
+Miranda Manor,3

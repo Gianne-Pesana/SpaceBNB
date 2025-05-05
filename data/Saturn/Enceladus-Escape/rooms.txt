@@ -1,0 +1,10 @@
+875,economy,1361.16,true,Single bed,Small
+764,economy,1716.95,true,Bunk bed,Small
+989,economy,1322.21,true,Bunk bed,Large
+989,luxury,3764.34,true,none,true
+443,standard,1824.17,true,Queen,true
+225,standard,1793.29,true,Twin,false
+647,standard,2701.75,true,Twin,true
+735,luxury,3665.43,true,in-room-spa,true
+696,economy,1233.2,true,Bunk bed,Small
+837,standard,2766.17,true,King,false

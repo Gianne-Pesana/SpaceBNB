@@ -1,7 +1,7 @@
+Red Sun Retreat,5
 Smallville Suites,4
-Red Sun Retreat,2
-Kryptonville Komfort,3
-Kandor Keep,2
-Fortress of Solitude Stay,1
-Metropolis Manor,2
-Daily Planet Pillow,1
+Fortress of Solitude Stay,5
+Kandor Keep,4
+Daily Planet Pillow,2
+Kryptonville Komfort,2
+Metropolis Manor,3

@@ -7,3 +7,5 @@ BKG-1746460794-802|05-05-2025,23:59:54|Vulcan|Point of Serenity|481|Luxury|6|7|J
 BKG-1746463451-609|06-05-2025,00:44:11|Mars|Valles Marineris Vista|115|Economy|3|2|Janine Villencia|5962.69
 BKG-1746505164-347|06-05-2025,12:19:24|Mars|Valles Marineris Vista|548|Luxury|365|1|Neil|3450631.74
 BKG-1746585165-114|07-05-2025,10:32:45|Mars|Valles Marineris Vista|250|Economy|4|2|Alejandro|6926.53
+BKG-1746721702-453|09-05-2025,00:28:22|Vulcan|Plomeek Palace|007|Standard|12|4|Jing|93876.12
+BKG-1746723774-980|09-05-2025,01:02:54|Neptune|Proteus Pads|017|Economy|15|6|Gianne|36118.15

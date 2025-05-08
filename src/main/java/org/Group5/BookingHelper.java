@@ -24,16 +24,12 @@ public class BookingHelper {
     public static int getStayDuration() {
         int duration;
         while (true) {
-            System.out.print("Enter number of days you wish to stay: ");
-            try {
-                duration = Integer.parseInt(scanner.nextLine());
-                if (duration > 0) {
-                    break;
-                } else {
-                    System.out.println("Duration must be greater than 0.");
-                }
-            } catch (NumberFormatException e) {
-                System.out.println("Please enter a valid number.");
+            System.out.print("Enter number of nights you wish to stay: ");
+            duration = Integer.parseInt(scanner.nextLine());
+            if (duration > 0) {
+                break;
+            } else {
+                System.out.println("Duration must be greater than 0.");
             }
         }
         return duration;
@@ -44,15 +40,11 @@ public class BookingHelper {
         int people;
         while (true) {
             System.out.print("Enter number of people: ");
-            try {
-                people = Integer.parseInt(scanner.nextLine());
-                if (people > 0) {
-                    break;
-                } else {
-                    System.out.println("Number of people must be greater than 0.");
-                }
-            } catch (NumberFormatException e) {
-                System.out.println("Please enter a valid number.");
+            people = Integer.parseInt(scanner.nextLine());
+            if (people > 0) {
+                break;
+            } else {
+                System.out.println("Number of people must be greater than 0.");
             }
         }
         return people;
@@ -60,67 +52,84 @@ public class BookingHelper {
 
     // Confirm booking with user
     public static boolean confirmBooking(Planets planet, Hotels hotel, Rooms room, int duration, int people, String bookingName) {
-        System.out.println(Displays.titleHeader);
+        Scanner scanner = new Scanner(System.in);
         Utils.clearConsole();
+
+        int headRowLen = ((room.getRoomDetails().length() - 22) / 2) + 10;
+        int separatorLen = room.getRoomDetails().length() + 20;
+
+        // Placeholder for ASCII art header
+        System.out.println(Displays.titleHeader);// Replace with your ASCII art header
+
+
+        System.out.println("\n" + "=".repeat(headRowLen) + " Booking Confirmation " + "=".repeat(headRowLen));
         System.out.println();
+
         double subtotal = room.getPricePerNight() * duration;
-        double vatAmount = subtotal * VAT_RATE;
+        double vatRate = 0.12;
+        double vatAmount = subtotal * vatRate;
         double total = subtotal + vatAmount;
-        
-        System.out.println("\n=== Booking Summary ===");
-        System.out.println("Planet: " + planet.getPlanetName());
-        System.out.println("Hotel: " + hotel.getHotelName());
-        System.out.println("Room: " + room.getRoomNumber() + " (" + room.getRoomType() + ")");
-        System.out.println("Duration: " + duration + " days");
-        System.out.println("Number of People: " + people);
-        System.out.println("Booking Name: " + bookingName);
-        System.out.println("------------------------------------");
-        System.out.printf("Subtotal:         ₱%.2f\n", subtotal);
+
+        System.out.printf("Booking Name:      %s\n", bookingName);
+        System.out.printf("Destination:       %s\n", planet.getPlanetName());
+        System.out.printf("Hotel:             %s\n", hotel.getHotelName());
+        System.out.printf("Room:              %s\n", room.getRoomDetails());
+        System.out.printf("Stay Duration:     %d nights\n", duration);
+        System.out.printf("Number of People:  %d\n", people);
+        System.out.println("-".repeat(separatorLen));
+        System.out.printf("Subtotal:          ₱%.2f\n", subtotal);
         System.out.printf("VAT (12%%):        ₱%.2f\n", vatAmount);
-        System.out.println("------------------------------------");
-        System.out.printf("Total:            ₱%.2f\n", total);
-        
-        while (true) {
-            System.out.print("\nConfirm booking? (yes/no): ");
-            String choice = scanner.nextLine().toLowerCase();
-            if (choice.equals("yes")) {
-                return true;
-            } else if (choice.equals("no")) {
-                return false;
-            } else {
-                System.out.println("Please enter 'yes' or 'no'.");
-            }
-        }
+        System.out.println("-".repeat(separatorLen));
+        System.out.printf("Total:             ₱%.2f\n", total);
+        System.out.println("-".repeat(separatorLen));
+
+        System.out.print("\nWould you like to confirm your booking? (yes/no): ");
+        String response = scanner.nextLine().trim().toLowerCase();
+
+        return response.equals("yes");
     }
 
     // Show booking receipt
     public static void showReceipt(Booking booking) {
-        System.out.println(Displays.titleHeader);
         Utils.clearConsole();
+        String receiptTitle =
+                            " ____                       ____  _   _ ____  \n" +
+                            "/ ___| _ __   __ _  ___ ___| __ )| \\ | | __ ) \n" +
+                            "\\___ \\| '_ \\ / _` |/ __/ _ \\  _ \\|  \\| |  _ \\ \n" +
+                            " ___) | |_) | (_| | (_|  __/ |_) | |\\  | |_) |\n" +
+                            "|____/| .__/ \\__,_|\\___\\___|____/|_| \\_|____/ \n" +
+                            "      |_|                                     ";
+        System.out.println(receiptTitle);
+        System.out.println("  🚀 Intergalactic Space Booking System 🌌");
+        System.out.println("==============================================");
         System.out.println();
+
         double subtotal = booking.getRoom().getPricePerNight() * booking.getStayDuration();
         double vatAmount = subtotal * VAT_RATE;
         double total = subtotal + vatAmount;
-        
-        System.out.println("\n=== Booking Receipt ===");
-        System.out.println("Booking ID: " + booking.getBookingID());
-        System.out.println("Date: " + booking.getDateTime());
-        System.out.println("Planet: " + booking.getPlanet().getPlanetName());
-        System.out.println("Hotel: " + booking.getHotel().getHotelName());
-        System.out.println("Room: " + booking.getRoom().getRoomNumber() + " (" + booking.getRoom().getRoomType() + ")");
-        System.out.println("Duration: " + booking.getStayDuration() + " days");
-        System.out.println("Number of People: " + booking.getNumberOfPeople());
-        System.out.println("Booking Name: " + booking.getBookingName());
-        System.out.println("------------------------------------");
-        System.out.printf("Subtotal:         ₱%.2f\n", subtotal);
-        System.out.printf("VAT (12%%):        ₱%.2f\n", vatAmount);
-        System.out.println("------------------------------------");
-        System.out.printf("Total:            ₱%.2f\n", total);
-        System.out.println("=====================");
+
+        System.out.println("    🧾 ===== Booking Receipt ===== 🧾");
+        System.out.println("🔗 Booking ID:        " + booking.getBookingID());
+        System.out.println("📅 Booking Date:      " + booking.getDateTime());
+        System.out.println("👤 Booking Name:      " + booking.getBookingName());
+        System.out.println("🪐 Planet:            " + booking.getPlanet().getPlanetName());
+        System.out.println("🏨 Hotel:             " + booking.getHotel().getHotelName());
+        System.out.println("🛏️ Room:              " + booking.getRoom().getRoomNumber() + " (" + booking.getRoom().getRoomType() + ")");
+        System.out.println("⏳ Duration:          " + booking.getStayDuration() + " nights");
+        System.out.println("👥 Number of People:  " + booking.getNumberOfPeople());
+        System.out.println("----------------------------------------------");
+        System.out.printf("💰 Subtotal:         ₱%.2f\n", subtotal);
+        System.out.printf("🧾 VAT (12%%):       ₱%.2f\n", vatAmount);
+        System.out.println("----------------------------------------------");
+        System.out.printf("💳 Total:            ₱%.2f\n", total);
+        System.out.println("==============================================");
+        System.out.println();
+        System.out.println("🙏 Thank you for booking with us! 🙏");
+        System.out.println("✨ We wish you a pleasant journey through the stars! ✨");
     }
 
+
     // Display transaction history
-    //TODO: FIX UI
     public static void displayTransactionHistory(ArrayList<String> transactions) {
         if (transactions.isEmpty()) {
             System.out.println("No transactions found.");

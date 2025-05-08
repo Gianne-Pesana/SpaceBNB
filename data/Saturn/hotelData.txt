@@ -1,7 +1,6 @@
-Iapetus Inn,4
-Ringview Residences,2
-Rhea Retreat,1
-Enceladus Escape,3
+Enceladus Escape,1
+Dione Digs,3
 Mimas Manor,3
-Dione Digs,5
-Titan Tranquility,3
+Ringview Residences,2
+Titan Tranquility,2
+Rhea Retreat,5

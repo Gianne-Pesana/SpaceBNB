@@ -1,5 +1,7 @@
-Cinder Rest,1
-Quicksilver Retreat,1
-The Sunspot Lodge,3
+The Sunspot Lodge,1
+Magma Manor,3
+Solaris Suites,2
+Quicksilver Retreat,3
+Inferno Inn,1
+Cinder Rest,5
 Dawnbreak Hotel,5
-Inferno Inn,3

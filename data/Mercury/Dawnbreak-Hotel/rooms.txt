@@ -1,11 +1,23 @@
-894,standard,2183.55,true,Queen,true
-222,luxury,3893.67,true,in-room-spa,false
-558,standard,1900.36,true,King,false
-206,standard,3019.3,true,Twin,true
-563,luxury,4300.95,true,in-room-spa,false
-356,economy,1833.17,true,Single bed,Small
-544,standard,3474.0,true,King,true
-533,standard,2516.42,true,Queen,true
-631,standard,3255.59,true,Queen,true
-857,luxury,5383.49,true,none,true
-251,luxury,4619.09,true,private-pool,false
+001,standard,6386.98,true,Twin,true
+002,standard,8849.91,true,Twin,true
+003,luxury,19559.59,true,in-room-spa,true
+004,standard,8700.54,true,Queen,true
+005,luxury,15061.26,true,in-room-spa,true
+006,economy,2077.4,true,Bunk bed,Large
+007,luxury,11538.21,true,in-room-spa,false
+008,economy,4829.65,true,Bunk bed,Small
+009,luxury,13291.47,true,in-room-spa,false
+010,economy,3186.81,true,Bunk bed,Medium
+011,economy,1986.52,true,Single bed,Small
+012,economy,2282.08,true,Bunk bed,Small
+013,economy,3181.57,true,Single bed,Medium
+014,luxury,19077.1,true,private-pool,true
+015,standard,8587.44,true,King,false
+016,economy,3912.52,true,Bunk bed,Medium
+017,economy,4205.21,true,Single bed,Small
+018,standard,7621.26,true,Queen,false
+019,standard,9910.59,true,King,false
+020,luxury,12401.05,true,private-pool,true
+021,economy,4275.92,true,Single bed,Large
+022,economy,4908.48,true,Bunk bed,Small
+023,standard,7838.08,true,Queen,true

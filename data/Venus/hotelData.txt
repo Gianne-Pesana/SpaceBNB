@@ -1,7 +1,6 @@
+Aphrodite Arms,4
+Mist Haven,3
+Glow Hotel,3
+Morning Star Motel,2
+Love Planet Plaza,3
 Greenhouse Grand,1
-Twilight Towers,1
-Aphrodite Arms,2
-Mist Haven,2
-Glow Hotel,5
-Morning Star Motel,4
-Love Planet Plaza,4

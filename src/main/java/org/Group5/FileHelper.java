@@ -57,7 +57,7 @@ public class FileHelper {
                 String line = inFile.nextLine().trim();
                 
                 // Skip empty lines and comments
-                if (line.isEmpty() || line.startsWith("#")) {
+                if (line.isEmpty()) {
                     continue;
                 }
                 
@@ -99,8 +99,7 @@ public class FileHelper {
             while (inFile.hasNextLine()) {
                 String line = inFile.nextLine().trim();
                 
-                // Skip empty lines and comments
-                if (line.isEmpty() || line.startsWith("#")) {
+                if (line.isEmpty()) {
                     continue;
                 }
                 

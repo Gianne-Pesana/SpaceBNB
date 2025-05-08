@@ -1,7 +1,6 @@
-Oceanus Odyssey,2
+Despina Digs,4
+Larissa Lodging,3
+Oceanus Odyssey,1
 Poseidon Plaza,2
-Proteus Pads,2
-Triton Terrace,5
-Larissa Lodging,2
-Despina Digs,3
-Nereid Nook,4
+Nereid Nook,3
+Proteus Pads,4

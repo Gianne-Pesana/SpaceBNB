@@ -1,6 +1,6 @@
-Spock's Snooze,4
-Point of Serenity,4
-Plomeek Palace,3
-Logic Lodge,1
-Kolinar Komfort,3
+Plomeek Palace,4
+Spock's Snooze,2
+IDIC Inn,3
+Point of Serenity,5
+Logic Lodge,3
 Pon Farr Plaza,3

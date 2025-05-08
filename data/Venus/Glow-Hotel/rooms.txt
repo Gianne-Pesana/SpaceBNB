@@ -2,7 +2,7 @@
 830,economy,1242.8,true,Bunk bed,Large
 617,economy,1403.46,true,Single bed,Small
 958,economy,1449.07,true,Single bed,Small
-661,luxury,9188.67,false,private-pool,true
+661,luxury,9188.67,true,private-pool,true
 165,economy,1088.11,true,Bunk bed,Large
 620,economy,1911.07,true,Bunk bed,Large
 419,economy,1729.62,true,Bunk bed,Large

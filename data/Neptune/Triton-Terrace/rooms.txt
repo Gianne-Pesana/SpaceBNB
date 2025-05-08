@@ -9,5 +9,5 @@
 844,economy,1479.78,true,Bunk bed,Large
 809,luxury,4382.91,true,jacuzzi,true
 119,standard,2225.15,true,King,false
-477,economy,1714.73,false,Bunk bed,Small
+477,economy,1714.73,true,Bunk bed,Small
 269,standard,1521.74,true,Twin,false

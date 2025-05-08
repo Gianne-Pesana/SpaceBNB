@@ -9,4 +9,4 @@
 701,economy,849.15,true,Single bed,Medium
 978,luxury,9887.2,true,in-room-spa,false
 637,economy,1061.81,true,Bunk bed,Small
-777,luxury,4650.02,false,private-pool,true
+777,luxury,4650.02,true,private-pool,true

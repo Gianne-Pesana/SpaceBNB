@@ -10,7 +10,7 @@ public class FileHelper {
     private static final double VAT_RATE = 0.12; // 12% VAT rate
 
     // Read planet data from file
-    public static ArrayList<Planets> readPlanetData() {
+    public static ArrayList<Planets> readPlanetData()  {
         ArrayList<Planets> planets = new ArrayList<>();
         
         try (Scanner inFile = new Scanner(new FileReader(DATA_PATH + "planetData.txt"))) {
@@ -18,7 +18,7 @@ public class FileHelper {
                 String line = inFile.nextLine().trim();
                 
                 // Skip empty lines and comments
-                if (line.isEmpty() || line.startsWith("#")) {
+                if (line.isEmpty()) {
                     continue;
                 }
                 
@@ -167,7 +167,7 @@ public class FileHelper {
             double vatAmount = subtotal * VAT_RATE;
             double totalPrice = subtotal + vatAmount;
 
-            //TODO: MODIFY FORMAT
+            // TODO: MODIFY FORMAT
             // Format: bookingID|dateTime|planetName|hotelName|roomNumber|roomType|stayDuration|numberOfPeople|bookingName|totalPrice
             String bookingData = String.format("%s|%s|%s|%s|%s|%s|%d|%d|%s|%.2f\n",
                     booking.getBookingID(),

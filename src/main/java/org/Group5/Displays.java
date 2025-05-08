@@ -40,6 +40,26 @@ public class Displays {
             return choice;
         }
 
+    public static String showMainMenu() {
+        String choice;
+        while (true) {
+            Utils.clearConsole();
+            System.out.println(Displays.titleHeader);
+            System.out.println("Select operation:");
+            System.out.println("[1] Book hotel room");
+            System.out.println("[2] View receipts (Password: 1234)");
+            System.out.println("[3] Exit");
+            System.out.println();
+            System.out.print("Enter operation choice: ");
+            Scanner scanner = new Scanner(System.in);
+            choice = scanner.nextLine();
+
+            if (choice.equals("1") || choice.equals("2") || choice.equals("3")) break;
+            else System.out.println("Invalid choice!");
+        }
+        return choice;
+    }
+
     public static void welcomeMessage() {
         String message = "Welcome to SpaceBNB! 🌌\n" +
                 "Ready to boldly go where many have only dreamed of sleeping? ✨\n" +
@@ -173,7 +193,7 @@ public class Displays {
             }
 
 
-            System.out.printf("| %-7s | %-8s | ₱%-11.2f | %-50s |\n",
+            System.out.printf("| %-7s | %-8s | ₱%-11.2f | %-49s |\n",
                     room.getRoomNumber(),
                     room.getRoomType(),
                     room.getPricePerNight(),
@@ -193,6 +213,7 @@ public class Displays {
             }
         }
 
+        // if there are no more rooms
         if (availableRooms.isEmpty()) {
             System.out.println("No rooms were available for selection.");
             Utils.pressAnyKeyToContinue();

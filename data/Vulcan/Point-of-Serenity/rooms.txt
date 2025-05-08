@@ -1,5 +1,5 @@
 291,luxury,7049.74,true,jacuzzi,true
-481,luxury,8555.87,false,in-room-spa,true
+481,luxury,8555.87,true,in-room-spa,true
 912,economy,1843.78,true,Bunk bed,Large
 915,luxury,5559.33,true,jacuzzi,false
 735,standard,2200.86,true,Queen,true

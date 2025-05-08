@@ -10,8 +10,7 @@ public class Main {
         // Main program loop
         while (true) {
             // Show main menu and get user choice
-            String choice = showMainMenu();
-            
+            String choice = Displays.showMainMenu();
             // Handle user choice
             switch (choice) {
                 case "1":
@@ -22,7 +21,7 @@ public class Main {
                     // View transaction history
                     viewTransactionHistory();
                     break;
-                case "quit":
+                case "3":
                     System.out.println("Thank you for using SpaceBNB. Goodbye!");
                     return;
                 default:
@@ -30,27 +29,7 @@ public class Main {
             }
         }
     }
-    
-    // Show main menu and get user choice
-    private static String showMainMenu() {
-        String choice;
-        while (true) {
-            Utils.clearConsole();
-            System.out.println(Displays.titleHeader);
-            System.out.println("Select operation:");
-            System.out.println("[1] Book hotel room");
-            System.out.println("[2] View receipts (Password: 1234)");
-            System.out.println();
-            System.out.print("Enter operation choice (type \"quit\" to exit): ");
-            choice = scanner.nextLine();
 
-            if (choice.equalsIgnoreCase("quit")) return "quit";
-            if (choice.equals("1") || choice.equals("2")) break;
-            System.out.println("Invalid choice!");
-        }
-        return choice;
-    }
-    
     // Method to start the booking process
     private static void startBooking() {
         // Clear screen and show welcome message

@@ -9,7 +9,7 @@
 009,economy,2691.28,true,Single bed,Small
 010,luxury,13306.36,true,private-pool,true
 011,luxury,16582.75,true,jacuzzi,true
-012,standard,9315.23,true,Queen,true
+012,standard,9315.23,false,Queen,true
 013,standard,8199.36,true,Queen,true
 014,luxury,11607.63,true,jacuzzi,false
 015,standard,6294.68,true,Queen,true

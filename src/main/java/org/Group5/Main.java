@@ -22,7 +22,7 @@ public class Main {
                     viewTransactionHistory();
                     break;
                 case "3":
-                    System.out.println("Thank you for using SpaceBNB. Goodbye!");
+                    System.out.println("Thank you for using SpaceBNB. Goodbye! Ingat.");
                     return;
                 default:
                     System.out.println("Invalid choice. Please try again.");
@@ -127,6 +127,8 @@ public class Main {
         }
         
         Utils.pressAnyKeyToContinue();
+        System.out.println("Returning to main menu...");
+        Utils.threadSleep();
     }
     
     // Method to view transaction history

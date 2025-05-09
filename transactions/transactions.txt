@@ -1,11 +1,7 @@
-BKG-1746435292-500|Gudod|05-05-2025,16:54:52|Uranus|Titania Towers|304|5|3|32122.89
-BKG-1746436574-788|Gianne|05-05-2025,17:16:14|Neptune|Larissa Lodging|777|9|7|46872.20
-BKG-1746436611-367|Berna|05-05-2025,17:16:51|Mars|Valles Marineris Vista|376|2|1|7671.57
-BKG-1746454871-352|Pew|05-05-2025,22:21:11|Krypton|Smallville Suites|382|3|6|17390.49
-BKG-1746460442-390|05-05-2025,23:54:02|Venus|Glow Hotel|661|Luxury|90|2|Gianne|826980.30
-BKG-1746460794-802|05-05-2025,23:59:54|Vulcan|Point of Serenity|481|Luxury|6|7|John|51335.22
-BKG-1746463451-609|06-05-2025,00:44:11|Mars|Valles Marineris Vista|115|Economy|3|2|Janine Villencia|5962.69
-BKG-1746505164-347|06-05-2025,12:19:24|Mars|Valles Marineris Vista|548|Luxury|365|1|Neil|3450631.74
-BKG-1746585165-114|07-05-2025,10:32:45|Mars|Valles Marineris Vista|250|Economy|4|2|Alejandro|6926.53
-BKG-1746721702-453|09-05-2025,00:28:22|Vulcan|Plomeek Palace|007|Standard|12|4|Jing|93876.12
-BKG-1746723774-980|09-05-2025,01:02:54|Neptune|Proteus Pads|017|Economy|15|6|Gianne|36118.15
+BKG-1746769073-867|09-05-2025,13:37:53|Jupiter|Stormy Slumber|009|Luxury|6|1|Gianne Carl|104625.96
+BKG-1746769114-055|09-05-2025,13:38:34|Vulcan|Point of Serenity|017|Standard|3|5|Ian Carlo|29842.78
+BKG-1746769183-557|09-05-2025,13:39:43|Mercury|Magma Manor|022|Economy|12|3|Neil Niegas|64056.65
+BKG-1746769229-452|09-05-2025,13:40:29|Venus|Morning Star Motel|012|Luxury|2|1|Dylan|33335.68
+BKG-1746769449-375|09-05-2025,13:44:09|Jupiter|Great Red Spot Hotel|019|Economy|32|8|Havenster Lim|137902.64
+BKG-1746769504-933|09-05-2025,13:45:04|Saturn|Mimas Manor|014|Luxury|12|4|Chico|224334.30
+BKG-1746769551-465|09-05-2025,13:45:51|Uranus|Ariel Abode|012|Standard|60|2|Seth Gallardo|625983.46

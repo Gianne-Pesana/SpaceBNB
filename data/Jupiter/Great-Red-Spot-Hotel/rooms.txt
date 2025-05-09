@@ -16,5 +16,5 @@
 016,standard,8727.26,true,King,false
 017,luxury,17219.44,true,none,true
 018,luxury,16730.96,true,none,false
-019,economy,3847.73,true,Bunk bed,Medium
+019,economy,3847.73,false,Bunk bed,Medium
 020,standard,6298.3,true,Twin,true

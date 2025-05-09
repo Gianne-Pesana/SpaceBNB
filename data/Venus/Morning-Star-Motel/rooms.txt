@@ -9,7 +9,7 @@
 009,luxury,13887.74,true,in-room-spa,true
 010,luxury,14074.49,true,private-pool,false
 011,economy,3601.02,true,Single bed,Medium
-012,luxury,14882.0,true,jacuzzi,true
+012,luxury,14882.0,false,jacuzzi,true
 013,luxury,12298.99,true,none,false
 014,standard,9205.48,true,Twin,true
 015,economy,3164.43,true,Single bed,Small

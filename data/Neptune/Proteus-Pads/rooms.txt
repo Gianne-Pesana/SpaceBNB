@@ -14,7 +14,7 @@
 014,luxury,18744.18,true,jacuzzi,false
 015,luxury,19553.13,true,in-room-spa,true
 016,economy,2096.66,true,Single bed,Small
-017,economy,2149.89,false,Bunk bed,Large
+017,economy,2149.89,true,Bunk bed,Large
 018,standard,8317.81,true,Twin,true
 019,economy,2461.45,true,Single bed,Small
 020,luxury,16868.49,true,in-room-spa,false

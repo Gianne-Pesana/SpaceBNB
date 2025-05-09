@@ -14,7 +14,7 @@
 014,luxury,16278.97,true,none,false
 015,standard,6578.46,true,Queen,false
 016,luxury,15291.35,true,private-pool,true
-017,standard,8881.78,true,King,true
+017,standard,8881.78,false,King,true
 018,luxury,13436.39,true,private-pool,false
 019,standard,8944.01,true,Twin,true
 020,standard,9251.41,true,Queen,true

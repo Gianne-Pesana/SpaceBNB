@@ -19,5 +19,5 @@
 019,standard,9848.58,true,Twin,true
 020,standard,9675.82,true,Queen,false
 021,luxury,13815.02,true,none,false
-022,economy,4766.12,true,Bunk bed,Small
+022,economy,4766.12,false,Bunk bed,Small
 023,economy,1755.15,true,Bunk bed,Large

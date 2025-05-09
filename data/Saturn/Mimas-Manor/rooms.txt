@@ -11,7 +11,7 @@
 011,luxury,12346.06,true,jacuzzi,true
 012,economy,3105.93,true,Single bed,Large
 013,luxury,19780.88,true,private-pool,true
-014,luxury,16691.54,true,none,true
+014,luxury,16691.54,false,none,true
 015,standard,9605.51,true,King,true
 016,standard,6226.94,true,Twin,true
 017,economy,2493.63,true,Bunk bed,Large

@@ -25,7 +25,7 @@ public class BookingHelper {
         int duration;
         while (true) {
             System.out.print("Enter number of nights you wish to stay: ");
-            duration = Integer.parseInt(scanner.nextLine());
+            duration = scanner.nextInt();
             if (duration > 0) {
                 break;
             } else {
@@ -40,7 +40,7 @@ public class BookingHelper {
         int people;
         while (true) {
             System.out.print("Enter number of people: ");
-            people = Integer.parseInt(scanner.nextLine());
+            people = scanner.nextInt();
             if (people > 0) {
                 break;
             } else {
@@ -77,10 +77,10 @@ public class BookingHelper {
         System.out.printf("Stay Duration:     %d nights\n", duration);
         System.out.printf("Number of People:  %d\n", people);
         System.out.println("-".repeat(separatorLen));
-        System.out.printf("Subtotal:          ₱%.2f\n", subtotal);
-        System.out.printf("VAT (12%%):        ₱%.2f\n", vatAmount);
+        System.out.printf("Subtotal:          ₱%,.2f\n", subtotal);
+        System.out.printf("VAT (12%%):        ₱%,.2f\n", vatAmount);
         System.out.println("-".repeat(separatorLen));
-        System.out.printf("Total:             ₱%.2f\n", total);
+        System.out.printf("Total:             ₱%,.2f\n", total);
         System.out.println("-".repeat(separatorLen));
 
         System.out.print("\nWould you like to confirm your booking? (yes/no): ");
@@ -118,10 +118,10 @@ public class BookingHelper {
         System.out.println("⏳ Duration:          " + booking.getStayDuration() + " nights");
         System.out.println("👥 Number of People:  " + booking.getNumberOfPeople());
         System.out.println("----------------------------------------------");
-        System.out.printf("💰 Subtotal:         ₱%.2f\n", subtotal);
-        System.out.printf("🧾 VAT (12%%):       ₱%.2f\n", vatAmount);
+        System.out.printf("💰 Subtotal:         ₱%,.2f\n", subtotal);
+        System.out.printf("🧾 VAT (12%%):       ₱%,.2f\n", vatAmount);
         System.out.println("----------------------------------------------");
-        System.out.printf("💳 Total:            ₱%.2f\n", total);
+        System.out.printf("💳 Total:            ₱%,.2f\n", total);
         System.out.println("==============================================");
         System.out.println();
         System.out.println("🙏 Thank you for booking with us! 🙏");

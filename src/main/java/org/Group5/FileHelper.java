@@ -166,7 +166,6 @@ public class FileHelper {
             double vatAmount = subtotal * VAT_RATE;
             double totalPrice = subtotal + vatAmount;
 
-            // TODO: MODIFY FORMAT
             // Format: bookingID|dateTime|planetName|hotelName|roomNumber|roomType|stayDuration|numberOfPeople|bookingName|totalPrice
             String bookingData = String.format("%s|%s|%s|%s|%s|%s|%d|%d|%s|%.2f\n",
                     booking.getBookingID(),

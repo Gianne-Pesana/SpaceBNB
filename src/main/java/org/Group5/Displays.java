@@ -1,10 +1,8 @@
 package org.Group5;
 
-import java.io.FileReader;
+
 import java.util.ArrayList;
 import java.util.Scanner;
-import java.io.FileWriter;
-import java.io.IOException;
 
 
 public class Displays {

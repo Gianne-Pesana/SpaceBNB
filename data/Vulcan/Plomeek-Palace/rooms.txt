@@ -4,7 +4,7 @@
 004,standard,9118.52,true,Queen,true
 005,standard,7615.9,true,King,true
 006,economy,2219.13,true,Bunk bed,Large
-007,standard,6984.83,false,Queen,false
+007,standard,6984.83,true,Queen,false
 008,economy,4156.32,true,Bunk bed,Large
 009,luxury,16858.84,true,none,false
 010,luxury,19382.22,true,jacuzzi,true

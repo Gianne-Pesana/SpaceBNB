@@ -6,7 +6,7 @@
 006,luxury,19634.82,true,private-pool,false
 007,standard,9234.61,true,Twin,true
 008,standard,7627.16,true,King,false
-009,luxury,15569.34,true,none,false
+009,luxury,15569.34,false,none,false
 010,economy,3450.0,true,Single bed,Medium
 011,standard,8811.38,true,Twin,true
 012,luxury,14058.31,true,in-room-spa,true

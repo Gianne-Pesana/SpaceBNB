@@ -1,6 +1,6 @@
 package org.Group5;
 
-public abstract class Rooms {
+    public abstract class Rooms {
     // Basic room properties
     protected String roomNumber;    // Unique identifier for the room
     protected String roomType;      // Type of room (Economy, Standard, Luxury)
